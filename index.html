@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMEXUS | Scientific Club</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #0a0a2a 0%, #1a0b2e 50%, #000000 100%);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 40px 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(138, 43, 226, 0.3);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin: 20px;
+        }
+
+        .logo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #FFD700;
+            box-shadow: 0 0 20px #FFD700;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+            letter-spacing: 2px;
+            color: #FFD700;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+        }
+
+        .tagline {
+            font-style: italic;
+            font-size: 1.1rem;
+            color: #a0a0c0;
+            margin-bottom: 30px;
+        }
+
+        .about {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #e0e0e0;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .btn-insta {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+
+        .btn-fb {
+            background: #1877F2;
+        }
+
+        .btn-tele {
+            background: #0088cc;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Replace 'logo.jpg' with your actual logo image file name -->
+        <img src="logo.jpg" alt="LUMEXUS Logo" class="logo">
+        
+        <h1>LUMEXUS</h1>
+        <p class="tagline">Where minds connect and knowledge shines 💠</p>
+
+        <p class="about">
+            A student-led scientific club bridging the gap between technology and knowledge. 
+            We build projects, play coding games, explore AI, and keep our books open. 📚💻
+        </p>
+
+        <div class="social-links">
+            <!-- PASTE YOUR ACTUAL LINKS IN THE HREF="" -->
+            <a href="[PASTE INSTAGRAM LINK HERE]" target="_blank" class="btn btn-insta">
+                📸 Follow us on Instagram
+            </a>
+            <a href="[PASTE FACEBOOK LINK HERE]" target="_blank" class="btn btn-fb">
+                📘 Join us on Facebook
+            </a>
+            <a href="[PASTE TELEGRAM LINK HERE]" target="_blank" class="btn btn-tele">
+                ✈️ Join our Telegram
+            </a>
+        </div>
+
+        <div class="footer">
+            Open books. Open minds. Open source. © 2024 LUMEXUS
+        </div>
+    </div>
+
+</body>
+</html>
